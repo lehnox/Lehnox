@@ -1,30 +1,58 @@
-<h2 align="left">Sou Igor de Santana.<br>Sou estudante de Engenharia de Software e tenho uma paixão enorme por design de interfaces e experiência do usuário. Conhecido como "Lehnox" na comunidade, estou sempre buscando criar ferramentas que ajudem a simplificar as coisas e tornem a vida mais fácil para os usuários.<br><br>Meu foco é unir programação e design para desenvolver soluções que não só funcionem bem, mas que também sejam intuitivas e bonitas. Meu objetivo é sempre entregar um trabalho de qualidade, misturando a técnica com a criatividade para construir projetos incríveis.</h2>
+<h2 align="left">Olá! Eu sou o Igor de Santana 👋<br>  
+Desenvolvedor Backend em formação, focado em criar sistemas eficientes, escaláveis e bem estruturados.</h2>
 
-###
+Sou conhecido como <strong>"Lehnox"</strong> e atualmente estou aprofundando meus estudos em Engenharia de Software, com foco especial em backend.  
+Meu objetivo é construir APIs robustas, seguras e de fácil manutenção — sempre aplicando boas práticas, padrões de projeto e arquitetura limpa.
+
+Gosto de transformar regras de negócio complexas em soluções claras, performáticas e confiáveis, sempre priorizando qualidade, organização e escalabilidade.
+
+---
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=lehnox&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=lehnox&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=true" height="150" alt="languages graph"  />
+  <img src="https://github-readme-stats.vercel.app/api?username=lehnox&show_icons=true&include_all_commits=true&count_private=true&theme=dracula&hide_border=false"
+       height="150" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=lehnox&layout=compact&langs_count=5&theme=dracula&hide_border=true"
+       height="150" alt="Top Languages" />
 </div>
 
-###
+---
 
-<img align="right" height="150" src="https://fv5-4.files.fm/thumb_show.php?i=z5772scteq&view&v=1&PHPSESSID=bfc652cb3f708df833abdb6d0e6814b228eac1de"  />
-
-###
+### 🚀 Tecnologias & Ferramentas Backend
 
 <div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="30" alt="python logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="30" alt="csharp logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="35" alt="C#" />
+  <img width="10" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="35" alt="Python" />
+  <img width="10" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg" height="35" alt=".NET" />
+  <img width="10" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="35" alt="MySQL" />
+  <img width="10" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="35" alt="PostgreSQL" />
 </div>
 
-###
+---
+
+### 🧠 O que estou estudando atualmente
+- Arquitetura limpa (Clean Architecture)  
+- Desenvolvimento de APIs REST  
+- Padrões de projeto aplicados ao backend  
+- Versionamento e documentação de APIs (Swagger)  
+- Otimização, segurança e boas práticas de backend  
+
+---
+
+### 📌 Objetivo como Backend Developer
+Criar sistemas sólidos e escaláveis, com código limpo, bem organizado e preparado para o crescimento.  
+Minha prioridade é entregar soluções eficientes, seguras e alinhadas às necessidades reais do usuário e do negócio.
+
+---
+
+### 🔗 Conecte-se comigo
 
 <div align="left">
   <a href="https://www.linkedin.com/in/igorsansot/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />
+    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&color=0077B5&logoColor=white&style=for-the-badge"
+         height="35" alt="LinkedIn" />
   </a>
 </div>
-
-###
