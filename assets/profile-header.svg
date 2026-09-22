@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Igor Santana - Software Engineering</title>
+  <desc id="desc">Animated dark technical banner introducing Igor Santana and his focus on product systems, desktop applications, automation, and developer tools.</desc>
+
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#22303A" stroke-width="1" opacity="0.34" />
+    </pattern>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <clipPath id="frameClip">
+      <rect x="1" y="1" width="1198" height="358" rx="8" />
+    </clipPath>
+  </defs>
+
+  <style>
+    .sans { font-family: Inter, Segoe UI, Arial, sans-serif; }
+    .mono { font-family: JetBrains Mono, Cascadia Code, Consolas, monospace; }
+    .path-a { animation: draw 4.8s ease-in-out infinite; }
+    .path-b { animation: draw 4.8s ease-in-out 0.8s infinite; }
+    .pulse { animation: pulse 2.4s ease-in-out infinite; }
+    .blink { animation: blink 1.1s steps(2, end) infinite; }
+    @keyframes draw {
+      0%, 12% { stroke-dashoffset: 260; opacity: 0.18; }
+      48%, 76% { stroke-dashoffset: 0; opacity: 0.88; }
+      100% { stroke-dashoffset: -260; opacity: 0.18; }
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 0.5; }
+      50% { opacity: 1; }
+    }
+    @keyframes blink {
+      0%, 46% { opacity: 1; }
+      47%, 100% { opacity: 0; }
+    }
+  </style>
+
+  <rect width="1200" height="360" rx="8" fill="#0B1016" />
+  <rect x="1" y="1" width="1198" height="358" rx="8" fill="none" stroke="#26343E" stroke-width="2" />
+  <rect width="1200" height="360" rx="8" fill="url(#grid)" />
+
+  <g clip-path="url(#frameClip)">
+    <rect x="0" y="-26" width="1200" height="28" fill="#5DD9C1" opacity="0.045">
+      <animate attributeName="y" from="-26" to="360" dur="7s" repeatCount="indefinite" />
+    </rect>
+
+    <path d="M48 72 V288" stroke="#0FA3B1" stroke-width="4" />
+    <path d="M48 72 H78 M48 288 H78" stroke="#F0B429" stroke-width="4" />
+
+    <g opacity="0.82">
+      <path class="path-a" d="M804 84 H874 L906 116 H1138" fill="none" stroke="#0FA3B1" stroke-width="2" stroke-dasharray="260" stroke-dashoffset="260" />
+      <path class="path-b" d="M778 256 H864 L896 224 H1138" fill="none" stroke="#5DD9C1" stroke-width="2" stroke-dasharray="260" stroke-dashoffset="260" />
+      <circle cx="804" cy="84" r="5" fill="#F0B429" filter="url(#softGlow)" />
+      <circle cx="1138" cy="116" r="5" fill="#5DD9C1" filter="url(#softGlow)" />
+      <circle cx="778" cy="256" r="5" fill="#F0B429" filter="url(#softGlow)" />
+      <circle cx="1138" cy="224" r="5" fill="#0FA3B1" filter="url(#softGlow)" />
+    </g>
+
+    <text x="78" y="93" class="mono" font-size="15" font-weight="600" fill="#5DD9C1">SOFTWARE ENGINEERING / PRODUCT DEVELOPMENT</text>
+    <text x="74" y="174" class="sans" font-size="64" font-weight="750" fill="#F4F7F9">IGOR SANTANA</text>
+    <rect class="blink" x="600" y="126" width="5" height="55" rx="2" fill="#F0B429" />
+    <text x="78" y="219" class="mono" font-size="18" fill="#A9B6BF">Product systems / Desktop applications / Developer tools</text>
+
+    <g transform="translate(816 137)">
+      <rect width="146" height="48" rx="5" fill="#111A21" stroke="#2F4652" />
+      <circle class="pulse" cx="21" cy="24" r="5" fill="#5DD9C1" />
+      <text x="36" y="29" class="mono" font-size="13" font-weight="600" fill="#D5DDE2">DESIGN</text>
+    </g>
+    <g transform="translate(976 137)">
+      <rect width="146" height="48" rx="5" fill="#111A21" stroke="#2F4652" />
+      <circle class="pulse" cx="21" cy="24" r="5" fill="#0FA3B1" />
+      <text x="36" y="29" class="mono" font-size="13" font-weight="600" fill="#D5DDE2">BUILD</text>
+    </g>
+    <path d="M962 161 H976" stroke="#F0B429" stroke-width="2" />
+
+    <g transform="translate(78 274)">
+      <circle class="pulse" cx="7" cy="7" r="7" fill="#5DD9C1" filter="url(#softGlow)" />
+      <text x="25" y="12" class="mono" font-size="14" font-weight="600" fill="#D5DDE2">BUILDING USEFUL SOFTWARE FROM REAL-WORLD PROBLEMS</text>
+    </g>
+
+    <text x="1122" y="321" text-anchor="end" class="mono" font-size="12" fill="#6E7E89">01 / PROFILE</text>
+  </g>
+</svg>
